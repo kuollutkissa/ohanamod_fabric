@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pp_bizon",
+  "key": {
+    "R": {
+      "item": "susmod:raw_sus"
+    },
+    "A": {
+      "item": "minecraft:acacia_planks"
+    },
+    "S": {
+      "item": "susmod:sus_ingot"
+    }
+  },
+  "pattern": [
+    "RS",
+    "AA",
+    "AA"
+  ],
+  "result": {
+    "item": "susmod:sus_station"
+  }
+}

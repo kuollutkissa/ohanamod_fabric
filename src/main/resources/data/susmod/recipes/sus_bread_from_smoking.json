@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "susmod:sus_wheat"
+  },
+  "result": "susmod:sus_bread"
+}

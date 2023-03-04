@@ -1,0 +1,13 @@
+
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "susmod:sus_essence"
+  },
+  "base": {
+    "item": "minecraft:golden_shovel"
+  },
+  "result": {
+    "item": "susmod:sus_shovel"
+  }
+}

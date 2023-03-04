@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "sus_block",
+  "key": {
+    "#": {
+      "item": "susmod:sus_ingot"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "susmod:sus_block"
+  }
+}

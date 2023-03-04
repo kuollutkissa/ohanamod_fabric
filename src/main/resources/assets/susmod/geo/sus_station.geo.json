@@ -1,0 +1,65 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.sus_station",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -8],
+							"size": [16, 14, 16],
+							"uv": {
+								"north": {"uv": [16, 16], "uv_size": [16, 14]},
+								"east": {"uv": [0, 16], "uv_size": [16, 14]},
+								"south": {"uv": [48, 16], "uv_size": [16, 14]},
+								"west": {"uv": [32, 16], "uv_size": [16, 14]},
+								"up": {"uv": [16, 0], "uv_size": [16, 16]},
+								"down": {"uv": [32, 16], "uv_size": [16, -16]}
+							}
+						}
+					]
+				},
+				{
+					"name": "Ingot",
+					"pivot": [2.5, 14.5, -1.5],
+					"cubes": [
+						{
+							"origin": [1, 14, -4],
+							"size": [3, 1, 5],
+							"uv": {
+								"north": {"uv": [5, 5], "uv_size": [3, 1]},
+								"east": {"uv": [0, 5], "uv_size": [5, 1]},
+								"south": {"uv": [13, 5], "uv_size": [3, 1]},
+								"west": {"uv": [8, 5], "uv_size": [5, 1]},
+								"up": {"uv": [5, 0], "uv_size": [3, 5]},
+								"down": {"uv": [8, 5], "uv_size": [3, -5]}
+							}
+						},
+						{
+							"origin": [1.5, 15, -3],
+							"size": [2, 0.2, 1],
+							"uv": {
+								"north": {"uv": [1, 1], "uv_size": [2, 0]},
+								"east": {"uv": [0, 1], "uv_size": [1, 0]},
+								"south": {"uv": [4, 1], "uv_size": [2, 0]},
+								"west": {"uv": [3, 1], "uv_size": [1, 0]},
+								"up": {"uv": [1, 0], "uv_size": [2, 1]},
+								"down": {"uv": [3, 1], "uv_size": [2, -1]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

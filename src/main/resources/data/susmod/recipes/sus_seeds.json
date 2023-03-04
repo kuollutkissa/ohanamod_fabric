@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "sus_ingot",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat_seeds"
+    },
+    {
+      "item": "susmod:sus_essence"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "susmod:sus_seeds"
+  }
+}

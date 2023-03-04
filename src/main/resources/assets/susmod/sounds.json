@@ -1,0 +1,17 @@
+{
+  "amogus": {
+    "sounds": [
+      "susmod:amogus"
+    ]
+  },
+  "amogus_short": {
+    "sounds": [
+      "susmod:amogus_short"
+    ]
+  },
+  "amogus_death": {
+    "sounds": [
+      "susmod:amogus_death"
+    ]
+  }
+}

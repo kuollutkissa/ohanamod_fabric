@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "susmod:sus_ore",
+    "susmod:deepslate_sus_ore",
+    "susmod:sus_block"
+  ]
+}

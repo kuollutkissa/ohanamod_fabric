@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pp_bizon",
+  "key": {
+    "W": {
+      "item": "susmod:sus_wheat"
+    }
+  },
+  "pattern": [
+    "WWW"
+  ],
+  "result": {
+    "item": "susmod:sus_bread"
+  }
+}

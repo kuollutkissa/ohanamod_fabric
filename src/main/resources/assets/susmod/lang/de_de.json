@@ -1,0 +1,31 @@
+{
+  "itemGroup.susmod.sus_group": "Sus mod",
+  
+  
+  "item.susmod.raw_sus": "Rohsus",
+  "item.susmod.sus_ingot": "Susbarren",
+  "item.susmod.sus_essence": "Susessenz",
+  "item.susmod.sus_sword": "Susschwert",
+  "item.susmod.sus_pickaxe": "Suspitzhacke",
+  "item.susmod.sus_axe": "Susaxt",
+  "item.susmod.sus_shovel": "Susschaufel",
+  "item.susmod.sus_hoe": "Sushacke",
+  "item.susmod.sus_helmet": "Sushelm",
+  "item.susmod.sus_chestplate": "Sussharnisch",
+  "item.susmod.sus_leggings": "Susbeinschutz",
+  "item.susmod.sus_boots": "Susstiefel",
+  "item.susmod.sus_fish": "Susfisch",
+  "item.susmod.amogus_spawn_egg": "Amogus-Spawn-Ei",
+  "item.susmod.sus_seeds": "Susweizkörner",
+  "item.susmod.sus_wheat": "Susweizen",
+  "item.susmod.sus_bread": "Susbrot",
+
+  "block.susmod.sus_ore": "Suserz",
+  "block.susmod.deepslate_sus_ore": "Tiefenscheifer-Suserz",
+  "block.susmod.sus_block": "Susblock",
+  "block.susmod.sus_station": "Sustisch",
+  "block.susmod.sus_wheat": "Susweizenpflanzen",
+
+  "entity.susmod.sus_station": "Sustisch",
+  "entity.susmod.amogus": "Amogus"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "susmod:block/deepslate_sus_ore"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "itemGroup.susmod.sus_group": "Sus mod",
+
+  "item.susmod.raw_sus": "Sus brut",
+  "item.susmod.sus_ingot": "Lingot de sus",
+  "item.susmod.sus_essence": "Essence de sus",
+  "item.susmod.sus_sword": "Épée en sus",
+  "item.susmod.sus_pickaxe": "Pioche en sus",
+  "item.susmod.sus_axe": "Hache en sus",
+  "item.susmod.sus_shovel": "Pelle en sus",
+  "item.susmod.sus_hoe": "Houe en sus",
+  "item.susmod.sus_helmet": "Casque en sus",
+  "item.susmod.sus_chestplate": "Plastron en sus",
+  "item.susmod.sus_leggings": "Jambières en sus",
+  "item.susmod.sus_boots": "Bottes en sus",
+  "item.susmod.sus_fish": "Poisson sus",
+  "item.susmod.amogus_spawn_egg": "Œuf d'apparition d'Amogus",
+  "item.susmod.sus_seeds": "Graines du blé sus",
+  "item.susmod.sus_wheat": "Blé sus",
+  "item.susmod.sus_bread": "Pain sus",
+
+  "block.susmod.sus_ore": "Minerai de sus",
+  "block.susmod.deepslate_sus_ore": "Minerai de sus des abîmes",
+  "block.susmod.sus_block": "Bloc de sus",
+  "block.susmod.sus_station": "Table de sus",
+  "block.susmod.sus_wheat": "Blé sus",
+
+  "entity.susmod.sus_station": "Table de sus",
+  "entity.susmod.amogus": "Amogus"
+
+}

@@ -1,0 +1,30 @@
+{
+  "itemGroup.susmod.sus_group": "Sus Items",
+
+  "item.susmod.raw_sus": "Raw Sus",
+  "item.susmod.sus_ingot": "Sus Ingot",
+  "item.susmod.sus_essence": "Sus Essence",
+  "item.susmod.sus_sword": "Sus Sword",
+  "item.susmod.sus_pickaxe": "Sus Pickaxe",
+  "item.susmod.sus_axe": "Sus Axe",
+  "item.susmod.sus_shovel": "Sus Shovel",
+  "item.susmod.sus_hoe": "Sus Hoe",
+  "item.susmod.sus_helmet": "Sus Helmet",
+  "item.susmod.sus_chestplate": "Sus Chestplate",
+  "item.susmod.sus_leggings": "Sus Leggings",
+  "item.susmod.sus_boots": "Sus Boots",
+  "item.susmod.sus_fish": "Sus Fish",
+  "item.susmod.amogus_spawn_egg": "Amogus Spawn Egg",
+  "item.susmod.sus_seeds": "Sus wheat seeds",
+  "item.susmod.sus_wheat": "Sus Wheat",
+  "item.susmod.sus_bread": "Sus Bread",
+
+  "block.susmod.sus_ore": "Sus Ore",
+  "block.susmod.deepslate_sus_ore": "Deepslate Sus Ore",
+  "block.susmod.sus_block": "Sus Block",
+  "block.susmod.sus_station": "Sus Station",
+  "block.susmod.sus_wheat": "Sus Wheat",
+
+  "entity.susmod.sus_station": "Sus Station",
+  "entity.susmod.amogus": "Amogus"
+}

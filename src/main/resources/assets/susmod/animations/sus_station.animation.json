@@ -1,0 +1,40 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.sus_station.idle": {
+			"loop": true,
+			"bones": {
+				"Ingot": {
+					"position": {
+						"vector": [0, -3, 0]
+					}
+				}
+			}
+		},
+		"animation.sus_station.extracting": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"Ingot": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.0": {
+							"vector": [0, 360, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [-2.5, 3, 1]
+						},
+						"1.0": {
+							"vector": [-2.5, 3, 1]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

@@ -1,0 +1,30 @@
+{  
+  "itemGroup.susmod.sus_group": "Sus mod",
+
+  "item.susmod.raw_sus": "Raakasus",
+  "item.susmod.sus_ingot": "Susharkko",
+  "item.susmod.sus_essence": "Susolemus",
+  "item.susmod.sus_sword": "Susmiekka",
+  "item.susmod.sus_pickaxe": "Sushakku",
+  "item.susmod.sus_axe": "Suskirves",
+  "item.susmod.sus_shovel": "Suslappio",
+  "item.susmod.sus_hoe": "Sushkuokka",
+  "item.susmod.sus_helmet": "Suskypärä",
+  "item.susmod.sus_chestplate": "Susrintapanssari",
+  "item.susmod.sus_leggings": "Sushousut",
+  "item.susmod.sus_boots": "Sussaappaat",
+  "item.susmod.sus_fish": "Suskala",
+  "item.susmod.amogus_spawn_egg": "Luo amogus",
+  "item.susmod.sus_seeds": "Sussiemenet",
+  "item.susmod.sus_wheat": "Susvehnä",
+  "item.susmod.sus_bread": "Susleipä",
+
+  "block.susmod.sus_ore": "Susmalmi",
+  "block.susmod.deepslate_sus_ore": "Syväliuskesusmalmi",
+  "block.susmod.sus_block": "Suskuutio",
+  "block.susmod.sus_station": "Sus pöytä",
+  "block.susmod.sus_wheat": "Susvehnää",
+
+  "entity.susmod.sus_station": "Sus pöytä",
+  "entity.susmod.amogus": "Amogus"
+}
