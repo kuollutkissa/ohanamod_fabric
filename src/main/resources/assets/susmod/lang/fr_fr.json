@@ -3,7 +3,7 @@
 
   "item.susmod.raw_sus": "Sus brut",
   "item.susmod.sus_ingot": "Lingot de sus",
-  "item.susmod.sus_essence": "Essence de sus",
+  "item.susmod.sus_essence": "Essence susse",
   "item.susmod.sus_sword": "Épée en sus",
   "item.susmod.sus_pickaxe": "Pioche en sus",
   "item.susmod.sus_axe": "Hache en sus",
@@ -18,12 +18,21 @@
   "item.susmod.sus_seeds": "Graines du blé sus",
   "item.susmod.sus_wheat": "Blé sus",
   "item.susmod.sus_bread": "Pain sus",
+  "item.susmod.sus_chicken": "Poulet sus",
+  "item.susmod.sus_rabbit": "Lapin sus",
+  "item.susmod.sus_carrot": "Carotte susse",
+  "item.susmod.sus_glow_berries": "Baies lumineuses susses",
+  "item.susmod.sus_precision_tool": "Outil de précision sus",
+  "item.susmod.sus_essentium": "Sus essentium",
 
   "block.susmod.sus_ore": "Minerai de sus",
   "block.susmod.deepslate_sus_ore": "Minerai de sus des abîmes",
   "block.susmod.sus_block": "Bloc de sus",
   "block.susmod.sus_station": "Table de sus",
   "block.susmod.sus_wheat": "Blé sus",
+  "block.susmod.sus_carrots": "Carottes susses",
+  "block.susmod.sus_essentium": "Sus essentium",
+  "block.susmod.sus_essence_block": "Bloc d'essence susse",
 
   "entity.susmod.sus_station": "Table de sus",
   "entity.susmod.amogus": "Amogus"

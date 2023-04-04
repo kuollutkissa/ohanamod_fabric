@@ -18,12 +18,21 @@
   "item.susmod.sus_seeds": "Sus wheat seeds",
   "item.susmod.sus_wheat": "Sus Wheat",
   "item.susmod.sus_bread": "Sus Bread",
+  "item.susmod.sus_chicken": "Sus Chicken",
+  "item.susmod.sus_rabbit": "Sus Rabbit",
+  "item.susmod.sus_carrot": "Sus Carrot",
+  "item.susmod.sus_glow_berries": "Sus Glow Berries",
+  "item.susmod.sus_precision_tool": "Sus Precision Tool",
+  "item.susmod.sus_essentium": "Sus Essentium",
 
   "block.susmod.sus_ore": "Sus Ore",
   "block.susmod.deepslate_sus_ore": "Deepslate Sus Ore",
   "block.susmod.sus_block": "Sus Block",
   "block.susmod.sus_station": "Sus Station",
   "block.susmod.sus_wheat": "Sus Wheat",
+  "block.susmod.sus_carrots": "Sus Carrots",
+  "block.susmod.sus_essentium": "Sus Essentium",
+  "block.susmod.sus_essence_block": "Sus Essence Block",
 
   "entity.susmod.sus_station": "Sus Station",
   "entity.susmod.amogus": "Amogus"

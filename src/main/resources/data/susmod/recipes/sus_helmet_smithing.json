@@ -4,7 +4,7 @@
 {
   "type": "minecraft:smithing",
   "addition": {
-    "item": "susmod:sus_essence"
+    "item": "susmod:sus_ingot"
   },
   "base": {
     "item": "minecraft:golden_helmet"

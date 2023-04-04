@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "sus_food",
+  "key": {
+    "E": {
+      "item": "susmod:sus_essence"
+    },
+    "B": {
+      "item": "minecraft:glow_berries"
+    }
+  },
+  "pattern": [
+    "EEE",
+    "EBE",
+    "EEE"
+  ],
+  "result": {
+    "item": "susmod:sus_glow_berries"
+  }
+}

@@ -33,17 +33,18 @@ import net.minecraft.world.LocalDifficulty;
 import net.minecraft.world.ServerWorldAccess;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
-import software.bernie.geckolib.animatable.GeoEntity;
-import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
-import software.bernie.geckolib.core.animation.AnimatableManager;
-import software.bernie.geckolib.core.animation.AnimationController;
-import software.bernie.geckolib.core.animation.RawAnimation;
-import software.bernie.geckolib.core.object.PlayState;
-import software.bernie.geckolib.util.GeckoLibUtil;
-import software.bernie.geckolib.core.animation.AnimationState;
+import software.bernie.geckolib3.core.IAnimatable;
+import software.bernie.geckolib3.core.PlayState;
+import software.bernie.geckolib3.core.builder.AnimationBuilder;
+import software.bernie.geckolib3.core.builder.ILoopType;
+import software.bernie.geckolib3.core.controller.AnimationController;
+import software.bernie.geckolib3.core.event.predicate.AnimationEvent;
+import software.bernie.geckolib3.core.manager.AnimationData;
+import software.bernie.geckolib3.core.manager.AnimationFactory;
+import software.bernie.geckolib3.util.GeckoLibUtil;
 
-public class AmogusEntity extends TameableEntity implements GeoEntity {
-    private AnimatableInstanceCache factory = GeckoLibUtil.createInstanceCache(this);
+public class AmogusEntity extends TameableEntity implements IAnimatable {
+    private AnimationFactory factory = GeckoLibUtil.createFactory(this);
     private static final TrackedData<Boolean> SITTING = DataTracker.registerData(AmogusEntity.class, TrackedDataHandlerRegistry.BOOLEAN);
     private static final TrackedData<Integer> VARIANT = DataTracker.registerData(AmogusEntity.class, TrackedDataHandlerRegistry.INTEGER);
 
@@ -72,32 +73,37 @@ public class AmogusEntity extends TameableEntity implements GeoEntity {
         this.goalSelector.add(1, new AnimalMateGoal(this, 1.0));
     }
 
-    private PlayState predicate(AnimationState animationState) {
+    private <E extends IAnimatable> PlayState predicate(AnimationEvent<E> animationState) {
         if (animationState.isMoving()) {
-            animationState.getController().setAnimation(RawAnimation.begin().thenPlay(
-                    "animation.amogus.walking"));
+            animationState.getController().setAnimation(new AnimationBuilder().addAnimation(
+                    "animation.amogus.walking", ILoopType.EDefaultLoopTypes.LOOP));
             return PlayState.CONTINUE;
         }
         if (this.isSitting()) {
-            animationState.getController().setAnimation(
-                    RawAnimation.begin().thenPlay(" animation.amogus.sitting"));
+            animationState.getController().setAnimation(new AnimationBuilder()
+                    .addAnimation(" animation.amogus.sitting", ILoopType.EDefaultLoopTypes.LOOP));
             return PlayState.CONTINUE;
         }
-        animationState.getController().setAnimation(
-                RawAnimation.begin().thenPlay("animation.amogus.idle"));
+        animationState.getController().setAnimation(new AnimationBuilder()
+                .addAnimation("animation.amogus.idle", ILoopType.EDefaultLoopTypes.LOOP));
         return PlayState.CONTINUE;
     }
 
     @Override
-    public void registerControllers(AnimatableManager.ControllerRegistrar controllerRegistrar) {
-        controllerRegistrar.add(new AnimationController<>(this, "controller",
+    public void registerControllers(AnimationData data) {
+        data.addAnimationController(new AnimationController<>(this, "controller",
                 0, this::predicate));
+    }
+
+    @Override
+    public AnimationFactory getFactory() {
+        return factory;
     }
 
     @Nullable
     @Override
     protected SoundEvent getAmbientSound() {
-        return ModSoundEvents.AMOGUS_SHORT;
+        return ModSoundEvents.AMOGUS_AMBIENT;
     }
 
     @Nullable
@@ -242,9 +248,4 @@ public class AmogusEntity extends TameableEntity implements GeoEntity {
     }
 
 
-
-    @Override
-    public AnimatableInstanceCache getAnimatableInstanceCache() {
-        return factory;
-    }
 }

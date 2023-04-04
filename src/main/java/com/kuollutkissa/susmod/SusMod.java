@@ -7,12 +7,13 @@ import com.kuollutkissa.susmod.item.ModItemGroups;
 import com.kuollutkissa.susmod.item.ModItems;
 import com.kuollutkissa.susmod.screen.ModScreenHandlers;
 import com.kuollutkissa.susmod.sounds.ModSoundEvents;
+import com.kuollutkissa.susmod.util.Util;
 import com.kuollutkissa.susmod.world.ModWorldGen;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import software.bernie.geckolib.GeckoLib;
+import software.bernie.geckolib3.GeckoLib;
 
 public class SusMod implements ModInitializer {
 	public static final String MODID = "susmod";
@@ -26,6 +27,7 @@ public class SusMod implements ModInitializer {
 		ModWorldGen.registerModWorldGen();
 		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
+		Util.regModCompostableItems();
 		ModScreenHandlers.registerScreenHandlers();
 		ModBlockEntities.registerModBlockEntities();
 		ModSoundEvents.registerModSoundEvents();

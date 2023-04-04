@@ -3,19 +3,15 @@ package com.kuollutkissa.susmod.block.custom;
 
 import com.kuollutkissa.susmod.block.entity.ModBlockEntities;
 import com.kuollutkissa.susmod.block.entity.SusStationBlockEntity;
-import com.kuollutkissa.susmod.sounds.ModSoundEvents;
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityTicker;
 import net.minecraft.block.entity.BlockEntityType;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemPlacementContext;
-import net.minecraft.screen.NamedScreenHandlerFactory;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.DirectionProperty;
 import net.minecraft.state.property.Properties;
 import net.minecraft.util.*;
-import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
@@ -68,8 +64,8 @@ public class SusStationBlock extends BlockWithEntity implements BlockEntityProvi
             super.onStateReplaced(state, world, pos, newState, moved);
         }
     }
-
-    @Override
+    //DISABLED BECAUSE IT KICKS YOU FROM SERVER
+   /* @Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos,
                               PlayerEntity player, Hand hand, BlockHitResult hit) {
         if(world.isClient()) {
@@ -84,7 +80,9 @@ public class SusStationBlock extends BlockWithEntity implements BlockEntityProvi
         }
 
         return ActionResult.SUCCESS;
-    }
+    }*/
+
+
 
     @Nullable
     @Override

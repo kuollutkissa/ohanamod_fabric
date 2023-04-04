@@ -3,14 +3,10 @@ package com.kuollutkissa.susmod.item.client;
 import com.kuollutkissa.susmod.item.custom.SusStationBlockItem;
 import com.kuollutkissa.susmod.util.SusID;
 import net.minecraft.util.Identifier;
-import software.bernie.geckolib.model.DefaultedItemGeoModel;
+import software.bernie.geckolib3.model.AnimatedGeoModel;
 
-public class SusStationBlockItemModel extends DefaultedItemGeoModel<SusStationBlockItem>
+public class SusStationBlockItemModel extends AnimatedGeoModel<SusStationBlockItem>
 {
-    public SusStationBlockItemModel() {
-        super(new SusID("sus_station"));
-
-    }
 
     @Override
     public Identifier getTextureResource(SusStationBlockItem animatable) {

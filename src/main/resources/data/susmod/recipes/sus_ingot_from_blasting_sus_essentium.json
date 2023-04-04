@@ -1,0 +1,11 @@
+
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "sus_ingot",
+  "ingredient": {
+    "item": "susmod:sus_essentium"
+  },
+  "result": "susmod:sus_ingot"
+}

@@ -9,8 +9,8 @@ import net.minecraft.sound.SoundEvent;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    SUS("sus", 30, new int[]{2, 5, 8, 2}, 22, ModSoundEvents.AMOGUS_SHORT,
-            1.5f, 0.2f, () -> Ingredient.ofItems(ModItems.SUS_ESSENCE));
+    SUS("sus", 20, new int[]{3, 6, 7, 3}, 23, ModSoundEvents.AMOGUS_SHORT,
+            0.9f, 0.1f, () -> Ingredient.ofItems(ModItems.SUS_INGOT));
     private String name;
     private int durability;
     private int protection [];

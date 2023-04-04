@@ -3,9 +3,9 @@
 	"id": "susmod",
 	"version": "${version}",
 	"name": "SusMod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A very sus mod\nCredits:\nAmogus sounds from https://www.101soundboards.com/boards/35532-amogus-among-us-soundboard",
 	"authors": [
-		"Me!"
+		"KuollutKissa"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -29,7 +29,7 @@
 		"susmod.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.14.12",
+		"fabricloader": ">=0.14.14",
 		"minecraft": "~1.19.2",
 		"java": ">=17",
 		"fabric-api": "*"

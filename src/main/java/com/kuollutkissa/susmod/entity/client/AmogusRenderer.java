@@ -5,12 +5,15 @@ import com.kuollutkissa.susmod.entity.custom.AmogusEntity;
 import com.kuollutkissa.susmod.entity.variants.AmogusVariant;
 import com.kuollutkissa.susmod.util.SusID;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.entity.EntityRendererFactory;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Util;
-import software.bernie.geckolib.renderer.GeoEntityRenderer;
+import software.bernie.geckolib3.model.AnimatedGeoModel;
+import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
+
 import java.util.Map;
 
 public class AmogusRenderer extends GeoEntityRenderer<AmogusEntity> {
@@ -35,25 +38,16 @@ public class AmogusRenderer extends GeoEntityRenderer<AmogusEntity> {
         map.put(AmogusVariant.CORAL, new SusID("textures/entity/amogus/coral.png"));
     });
 
-    @Override
-    public Identifier getTextureLocation(AmogusEntity animatable) {
-        return TEXTURE_BY_VARIANT.get(animatable.getVariant());
-    }
-
-    @Override
-    public RenderLayer getRenderType(AmogusEntity animatable, Identifier texture, VertexConsumerProvider bufferSource, float partialTick) {
-        return super.getRenderType(animatable, texture, bufferSource, partialTick);
-    }
-
-    @Override
-    protected void applyRotations(AmogusEntity animatable, MatrixStack poseStack, float ageInTicks, float rotationYaw, float partialTick) {
-        if(animatable.isBaby()){
-            poseStack.scale(0.5f, 0.5f, 0.5f);
-        }
-        super.applyRotations(animatable, poseStack, ageInTicks, rotationYaw, partialTick);
-    }
 
     public AmogusRenderer(EntityRendererFactory.Context renderManager) {
         super(renderManager, new AmogusModel());
+    }
+
+    @Override
+    public RenderLayer getRenderType(AmogusEntity animatable, float partialTick, MatrixStack poseStack, VertexConsumerProvider bufferSource, VertexConsumer buffer, int packedLight, Identifier texture) {
+        if(animatable.isBaby()){
+            poseStack.scale(0.5f, 0.5f, 0.5f);
+        }
+        return super.getRenderType(animatable, partialTick, poseStack, bufferSource, buffer, packedLight, texture);
     }
 }

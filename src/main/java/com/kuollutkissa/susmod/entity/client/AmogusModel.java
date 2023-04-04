@@ -3,9 +3,9 @@ package com.kuollutkissa.susmod.entity.client;
 import com.kuollutkissa.susmod.entity.custom.AmogusEntity;
 import com.kuollutkissa.susmod.util.SusID;
 import net.minecraft.util.Identifier;
-import software.bernie.geckolib.model.GeoModel;
+import software.bernie.geckolib3.model.AnimatedGeoModel;
 
-public class AmogusModel extends GeoModel<AmogusEntity> {
+public class AmogusModel extends AnimatedGeoModel<AmogusEntity> {
     @Override
     public Identifier getModelResource(AmogusEntity object) {
         return new SusID("geo/amogus.geo.json");

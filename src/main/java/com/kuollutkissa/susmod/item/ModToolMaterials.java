@@ -8,7 +8,7 @@ import java.util.function.Supplier;
 
 
 public enum ModToolMaterials implements ToolMaterial {
-    SUS(MiningLevels.DIAMOND, 961, 7.0f, 3.5f, 22, () -> Ingredient.ofItems(ModItems.SUS_ESSENCE));
+    SUS(MiningLevels.DIAMOND, 591, 12.0f, 3.5f, 22, () -> Ingredient.ofItems(ModItems.SUS_INGOT));
     private int miningLevel;
     private int itemDurability;
     private float miningSpeed;
@@ -40,7 +40,6 @@ public enum ModToolMaterials implements ToolMaterial {
     public float getAttackDamage() {
         return attackDamage;
     }
-
     @Override
     public int getMiningLevel() {
         return miningLevel;

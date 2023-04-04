@@ -1,0 +1,15 @@
+
+
+
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "susmod:sus_essence"
+  },
+  "base": {
+    "item": "minecraft:gold_ingot"
+  },
+  "result": {
+    "item": "susmod:sus_ingot"
+  }
+}

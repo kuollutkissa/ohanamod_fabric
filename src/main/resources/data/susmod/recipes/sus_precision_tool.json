@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "item": "susmod:sus_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "  I",
+    " S ",
+    "S  "
+  ],
+  "result": {
+    "item": "susmod:sus_precision_tool"
+  }
+}

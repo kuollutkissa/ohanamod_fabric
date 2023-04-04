@@ -3,10 +3,10 @@ package com.kuollutkissa.susmod.block.entity.client;
 import com.kuollutkissa.susmod.block.entity.SusStationBlockEntity;
 import com.kuollutkissa.susmod.util.SusID;
 import net.minecraft.util.Identifier;
-import software.bernie.geckolib.model.GeoModel;
+import software.bernie.geckolib3.model.AnimatedGeoModel;
 
 
-public class SusStationBlockModel extends GeoModel<SusStationBlockEntity> {
+public class SusStationBlockModel extends AnimatedGeoModel<SusStationBlockEntity> {
 
     @Override
     public Identifier getModelResource(SusStationBlockEntity object) {

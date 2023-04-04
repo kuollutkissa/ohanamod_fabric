@@ -13,5 +13,16 @@
     "sounds": [
       "susmod:amogus_death"
     ]
+  },
+  "sus": {
+    "sounds": [
+      "susmod:sus"
+    ]
+  },
+  "amogus_ambient": {
+    "sounds": [
+      "susmod:amogus_short",
+      "susmod:sus"
+    ]
   }
 }

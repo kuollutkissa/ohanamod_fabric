@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "pp_bizon",
+  "group": "sus_station",
   "key": {
     "R": {
       "item": "susmod:raw_sus"

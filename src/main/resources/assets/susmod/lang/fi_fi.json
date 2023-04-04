@@ -18,12 +18,21 @@
   "item.susmod.sus_seeds": "Sussiemenet",
   "item.susmod.sus_wheat": "Susvehnä",
   "item.susmod.sus_bread": "Susleipä",
+  "item.susmod.sus_chicken": "Suskana",
+  "item.susmod.sus_rabbit": "Susjänis",
+  "item.susmod.sus_carrot": "Susporkkana",
+  "item.susmod.sus_glow_berries": "Susloistemarjoja",
+  "item.susmod.sus_precision_tool": "Sustarkkuustyökalu",
+  "item.susmod.sus_essentium": "Susolemium",
 
   "block.susmod.sus_ore": "Susmalmi",
   "block.susmod.deepslate_sus_ore": "Syväliuskesusmalmi",
   "block.susmod.sus_block": "Suskuutio",
   "block.susmod.sus_station": "Sus pöytä",
   "block.susmod.sus_wheat": "Susvehnää",
+  "block.susmod.sus_carrots": "Susporkkanat",
+  "block.susmod.sus_essentium": "Susolemium",
+  "block.susmod.sus_essence_block": "Susolemuskuutio",
 
   "entity.susmod.sus_station": "Sus pöytä",
   "entity.susmod.amogus": "Amogus"

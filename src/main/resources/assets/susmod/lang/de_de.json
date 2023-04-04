@@ -19,12 +19,21 @@
   "item.susmod.sus_seeds": "Susweizkörner",
   "item.susmod.sus_wheat": "Susweizen",
   "item.susmod.sus_bread": "Susbrot",
+  "item.susmod.sus_chicken": "Sushühnchen",
+  "item.susmod.sus_rabbit": "Suskaninchen",
+  "item.susmod.sus_carrot": "Suskarotte",
+  "item.susmod.sus_glow_berries": "Susleuchtbeeren",
+  "item.susmod.sus_precision_tool": "Suspräzisionswerkzeug",
+  "item.susmod.sus_essentium": "Susessenzium",
 
   "block.susmod.sus_ore": "Suserz",
   "block.susmod.deepslate_sus_ore": "Tiefenscheifer-Suserz",
   "block.susmod.sus_block": "Susblock",
   "block.susmod.sus_station": "Sustisch",
   "block.susmod.sus_wheat": "Susweizenpflanzen",
+  "block.susmod.sus_carrots": "Suskarotten",
+  "block.susmod.sus_essentium": "Susessenzium",
+  "block.susmod.sus_essence_block": "Susessenzblock",
 
   "entity.susmod.sus_station": "Sustisch",
   "entity.susmod.amogus": "Amogus"

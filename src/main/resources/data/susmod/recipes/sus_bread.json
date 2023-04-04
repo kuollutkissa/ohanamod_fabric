@@ -1,13 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "pp_bizon",
+  "group": "sus_food",
   "key": {
-    "W": {
-      "item": "susmod:sus_wheat"
+    "E": {
+      "item": "susmod:sus_essence"
+    },
+    "B": {
+      "item": "minecraft:bread"
     }
   },
   "pattern": [
-    "WWW"
+    "EEE",
+    "EBE",
+    "EEE"
   ],
   "result": {
     "item": "susmod:sus_bread"
